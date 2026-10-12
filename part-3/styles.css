@@ -1,0 +1,52 @@
+:root {
+  /* 3 Colors */
+  --primary-color: #611d04;
+  --secondary-color: #faf3f0;
+  --bnt-color: #0a0300;
+
+
+  /* 2 Spaces */
+  --spacing-l: 50px;
+  --spacing-m: 20px;
+}
+
+
+
+body{
+    background-color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 40px;
+    box-sizing: border-box;
+}
+
+h1{
+    color: var(--primary-color);
+    font-size: var(--spacing-l);
+}
+
+
+h1{
+
+    color: var(--primary-color);
+    font-size: var(--spacing-l);
+}
+
+
+button{
+    color: var(--secondary-color);
+    background-color: var(--bnt-color);   
+
+    font-size: var(--spacing-m);
+}
+
+
+nav ul{
+    display: flex; 
+    gap: 50px;
+    text-decoration: none;
+    
+}
+nav ul li {
+    list-style: none;
+    font-size: 30px;
+}
